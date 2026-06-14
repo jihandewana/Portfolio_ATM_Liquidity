@@ -1,0 +1,17 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# Ignore the Python virtual environment
+env_atm/
+
+# Ignore local SQLite database files (keep your repo lean)
+*.db
+
+# Optional: Ignore raw data CSV files if they are too large
+data/*.csv
+
+# Ignore heavy trained model binaries
+models/*
+
+models/
+
+git add .
